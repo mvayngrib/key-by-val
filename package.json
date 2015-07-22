@@ -1,0 +1,35 @@
+{
+  "author": "Mark Vayngrib <mark.vayngrib@lablz.com> (http://github.com/mvayngrib)",
+  "bugs": {
+    "url": "https://github.com/mvayngrib/key-by-val/issues"
+  },
+  "description": "lookup a key by a value in an object",
+  "devDependencies": {
+    "pre-commit": "latest",
+    "standard": "latest",
+    "tape": "latest"
+  },
+  "homepage": "https://github.com/mvayngrib/key-by-val",
+  "keywords": [
+    "reverse",
+    "lookup",
+    "map",
+    "key-by-value"
+  ],
+  "license": "ISC",
+  "main": "index.js",
+  "name": "key-by-val",
+  "pre-commit": [
+    "style",
+    "test"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mvayngrib/key-by-val.git"
+  },
+  "scripts": {
+    "style": "standard $(git ls-files \"**.js\")",
+    "test": "node test"
+  },
+  "version": "1.0.0"
+}
